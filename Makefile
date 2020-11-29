@@ -1,6 +1,5 @@
 all:
-	cc main.c main.h
-	mv a.out passgen
+	cc -o passgen main.c
 
 clean:
 	rm *.gch *.ia passgen
